@@ -66,19 +66,19 @@ header {
 	transition: all ease-in-out 500ms;
 	}
 .mban #pban3 {
-	background-image: url("pic3.jpg");
+	background-image: url("https://i.imgur.com/v6xMBI4.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	}
 .mban #pban2 {
-	background-image: url("pic2.jpg");
+	background-image: url("https://i.imgur.com/tOBMS8V.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	}
 .mban #pban1 {
-	background-image: url("pic1.jpg");
+	background-image: url("https://i.imgur.com/lR96eEe.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
