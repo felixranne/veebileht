@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stiil.css">
+<link rel="icon" type="image/x-icon" href="pildid/ikoon.png">
+<title>Kalkulaator</title>
+</head>
+<body>
+<header>
+<a href="index.html"><img src="pildid/Ruuniraha.png" alt="ruuniraha"></a>
+<nav>
+	<ul class="links">
+		<li><a href="index.html#listings">Müüjad</a></li>
+        <li><a href="index.html#KKK">KKK</a></li>
+        <li><a href="postitused.html">Blogi</a></li>
+        <li><a href="converter.html">Müü meile</a></li>
+	</ul>
+</nav>
+</header>
+	<img src="pildid/osrslogo.png" class="osrslogo" alt="osrslogo">
+	<div class="conv">
+		<h1 class="tiitel">Sisesta summa</h1>
+		<input type="text" placeholder="Sisesta kulla arv" id="input">
+		<span>=</span>
+		<input type="text" placeholder="Tulemus" id="result">
+		<select id="resultType">
+			<option value="euro">Euro</option>
+			<option value="dollar">Dollar</option>
+			<option value="yen">Yen</option>
+		</select>
+	</div>
+	<script src="converter.js"></script>
+<h1>Kuidas see töötab?</h1>
+<p>Sisesta oma kulla summa ja saa teada paljuga me seda ostame:<br>
+1m = 0.4€<br>
+1m = 0.5$<br>
+1m = 50¥</p>
+</body>
+</html>
